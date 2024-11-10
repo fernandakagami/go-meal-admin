@@ -39,8 +39,10 @@ export function LoginForm() {
   }
  
   return (
-    <Form {...form} >
+    <Form {...form} >      
       <form onSubmit={form.handleSubmit(onSubmit)} className={styles["form-container"]}>
+        <h1 className={styles.title}>Acessar área restrita</h1>
+         
         <FormField
           control={form.control}
           name="email"
@@ -67,7 +69,7 @@ export function LoginForm() {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <Button type="submit">Acessar</Button>
       </form>
     </Form>
   )

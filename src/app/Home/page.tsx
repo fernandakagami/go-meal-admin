@@ -1,6 +1,6 @@
 import { LoginPage } from "@/modules/Login/components/LoginPage";
 
-export default function Home() {
+export default function HomePage() {
   return (
    <LoginPage />
   )
